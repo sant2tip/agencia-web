@@ -1,0 +1,190 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background: linear-gradient(90deg, #007BFF, #6F42C1);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* Color dorado al pasar el ratón */
+}
+
+/* Estilo de la sección de inicio */
+#inicio {
+    padding: 60px 20px;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #FFD700;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background: #FFC107; /* Color amarillento al pasar el ratón */
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+
+/* Estilo de la sección de servicios */
+#servicios {
+    padding: 40px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#servicios h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.servicio {
+    margin: 20px 0;
+    border: 2px solid #6F42C1;
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.servicio:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.servicio h3 {
+    color: #6F42C1;
+}
+
+/* Estilo de la sección de acerca de nosotros */
+#acerca {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#acerca h2 {
+    color: #007BFF;
+}
+
+/* Estilo de la sección del blog */
+#blog {
+    padding: 40px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#blog h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de la sección de contacto */
+#contacto {
+    padding: 40px 20px;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+#contacto h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    border-color: #6F42C1; /* Color de borde al hacer foco */
+    outline: none;
+}
+
+input[type="submit"] {
+    background: #FFD700;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #FFC107; /* Color amarillento al pasar el ratón */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    position: relative;
+}
+
